@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" />
+    <title>BMI CALCULATOR</title>
+</head>
+<body>
+<div class="frame">
+<h1 class="frame-title">BMI Calculator</h1>
+        <h4>Enter your height and weight to calculate your BMI:</h4>
+    <form id="bmi-form" onsubmit="handleFormSubmission()">
+        <input type="number" id="height" placeholder="Height (cm)" required> <br><br>
+        <input type="number" id="weight" placeholder="Weight (kg)" required><br><br><br>
+        <button type="submit">Calculate BMI</button>
+        <p id="bmi-result"></p></form>
+</div>
+    <script src="index.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+body {
+    /*background-image: url(https://images2.alphacoders.com/128/1289152.jpg);*/
+    background-image: url("https://rare-gallery.com/uploads/posts/866049-Citrus-Orange-fruit-Grapefruit-Lemons.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'EB Garamond', serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.frame {
+    border-radius: 10px;
+    margin: 70px;
+    margin-left: 300px;
+    width: 800px;
+    height: 500px;
+    padding: 10px;
+    background-color: #FEF4D9;
+}
+
+.frame-title {
+    text-align: center;
+    color: #913E29;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.frame{
+    text-align: center;
+}
+
+#bmi-form input {
+    background-color: #F7D992;
+    color: #913E29;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#bmi-form button {
+    color: #913E29;
+    background-color: #F7D992;
+    width: 150px;
+    height: 40px;
+    font-size: 17px;
+}
+h4{
+    color: #913E29;
+    padding-top: -30px;
+}
+#bmi-result {
+    font-size: 20px;
+    font-weight: bold;
+}
